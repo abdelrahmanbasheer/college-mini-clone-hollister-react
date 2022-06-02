@@ -1,10 +1,13 @@
-import React from 'react'
-import { useState } from 'react';
-const Items=()=> {
+import React, { useState } from 'react'
+
+const Items=({success ,setSuccess})=> {
     const [available,setAvailable]=useState(true);
     const [available2,setAvailable2]=useState(false);
   return (
-    <div className='items'>
+    <div>
+      {
+        success ? 
+<div className='items'>
     <button onClick={(e)=>{
         e.preventDefault();
         setAvailable(true);
@@ -102,6 +105,13 @@ const Items=()=> {
 
     </div>
 
+        :
+        <div className='login-first'>
+          <h1 > Please login first to view all items available</h1>
+        </div>
+      }
+    
+    </div>
   )
 }
 

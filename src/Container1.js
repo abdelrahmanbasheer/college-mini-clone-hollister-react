@@ -1,5 +1,5 @@
 import React from 'react'
-import Items from './Items';
+
 const container1=( ) => {
   return (
     <section className="component-section-1">

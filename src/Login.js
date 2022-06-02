@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from './Header';
-function Login({image,setImage}) {
+function Login({image,setImage, success ,setSuccess}) {
 
 const users=[
 {
@@ -60,7 +60,7 @@ setImage(userData.avatar)
 
 
 const [error,setError]=useState(false);
-const [success,setSuccess]=useState(false);
+
 const [logout,setLogout]=useState(false);
   return (
     

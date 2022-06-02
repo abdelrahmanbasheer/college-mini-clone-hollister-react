@@ -2,12 +2,12 @@ import React from 'react'
 import Header from './Header';
 import Container1 from './Container1';
 import Items from './Items';
-const Main=({image,setImage})=> {
+const Main=({image,setImage,success, setSuccess})=> {
   return (
       <div>
-    <Header image={image} setImage={setImage}></Header>
+    <Header image={image} setImage={setImage}  success={success} setSuccess={setSuccess} ></Header>
     <Container1></Container1>
-    <Items></Items>
+    <Items  success={success} setSuccess={setSuccess}></Items>
     </div>
   )
 }
