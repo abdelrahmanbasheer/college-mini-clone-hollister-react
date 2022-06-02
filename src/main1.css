@@ -1,0 +1,436 @@
+root {
+  --primary-color:#fcfcfa;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+.component-section-2 .container .container-cta .button {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.5em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.component-section-2 .component-2-cta .button {
+  position: absolute;
+  top: 1700px;
+  right: 900px;
+  background-color: white;
+  color: #292a33;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mobile-menu-exit {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hover-girls {
+  overflow: hidden;
+  border-bottom-left-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  height: 400px;
+  position: absolute;
+  right: 700px;
+  background-color: #fcfcfa;
+  min-width: 500px;
+  padding-left: 5em;
+  margin-top: 1em;
+  z-index: 1;
+}
+
+.hover-girls ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: -80px;
+}
+
+.hover-girls ul li {
+  padding: 1em;
+}
+
+.hover-girls a:hover {
+  text-decoration: underline;
+}
+
+.hover-girls li {
+  color: #292a33;
+  font-weight: 700;
+}
+
+.hover-girls .img-girls-hover {
+  padding-left: 5.5em;
+  position: absolute;
+  left: 170px;
+  bottom: 35px;
+  width: 300px;
+  border-radius: 1em;
+}
+
+.navbar {
+  z-index: 1000;
+  padding-top: 50px;
+  position: fixed;
+  background-color: #fcfcfa;
+  width: 100%;
+}
+
+.navbar a {
+  color: #292a33;
+  font-size: 15px;
+}
+
+.navbar .logo {
+  position: relative;
+  top: -3px;
+  font-size: 1.5em;
+  color: #292a33;
+  font-weight: bold;
+}
+
+.navbar .container nav {
+  padding-bottom: 1em;
+}
+
+.navbar .container nav ul {
+  font-weight: 550;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar .container nav .primary-nav li {
+  float: left;
+  margin: 0em 2em 0em 1em;
+}
+
+.navbar .container nav .secondary-nav li {
+  float: right;
+  margin: 0em 2em 0em 0em;
+}
+
+.hover-guys {
+  overflow: hidden;
+  border-bottom-left-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  height: 400px;
+  position: absolute;
+  right: 600px;
+  background-color: #fcfcfa;
+  min-width: 500px;
+  padding-left: 5em;
+  margin-top: 1em;
+  z-index: 1;
+}
+
+.hover-guys ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: -80px;
+}
+
+.hover-guys a:hover {
+  text-decoration: underline;
+}
+
+.hover-guys li {
+  color: #292a33;
+  font-weight: 700;
+  padding: 1em;
+}
+
+.hover-guys .img-guys-hover {
+  padding-left: 5.5em;
+  position: absolute;
+  left: 170px;
+  bottom: 35px;
+  width: 300px;
+  border-radius: 1em;
+}
+
+.bg-img {
+  padding-top: 5em;
+}
+
+.bg-image {
+  width: 100%;
+}
+
+.left-col {
+  color: white;
+  position: absolute;
+  padding-left: 10em;
+  top: 250px;
+}
+
+.left-col p {
+  text-align: center;
+  font-size: 20px;
+  padding-right: 8em;
+}
+
+.left-col .spring-daze {
+  width: 50%;
+}
+
+.left-col .guys-cta {
+  margin-left: 1em;
+  background-color: white;
+  color: #292a33;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left-col .guys-cta a {
+  text-decoration: none;
+  color: #292a33;
+}
+
+.left-col .girls-cta {
+  background-color: white;
+  color: #292a33;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left-col .girls-cta a {
+  text-decoration: none;
+}
+
+.hover-account {
+  overflow: hidden;
+  border-bottom-left-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  background-color: #fcfcfa;
+  min-width: 5px;
+  padding-left: 5em;
+  margin-top: 0.8em;
+  z-index: 1;
+}
+
+.hover-account ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: -80px;
+}
+
+.hover-account a:hover {
+  text-decoration: underline;
+}
+
+.hover-account li {
+  color: #292a33;
+  font-weight: 700;
+  padding: 1em;
+}
+
+.items button {
+  position: relative;
+  right: -600px;
+}
+
+.items-btn {
+  margin: 1em;
+  cursor: pointer;
+  border-style: none;
+  background-color: white;
+  color: #292a33;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.items-btn:hover {
+  -webkit-transform: scale(102%);
+          transform: scale(102%);
+}
+
+.items-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.items-ul li {
+  padding: 1em;
+}
+
+.items {
+  margin-left: 3em;
+}
+
+.form {
+  padding-top: 5em;
+  margin-top: 20em;
+  margin-left: 35em;
+  display: inline-block;
+  background-color: white;
+  height: 150px;
+  width: 350px;
+  opacity: 95%;
+}
+
+.input-container {
+  margin: 1em;
+}
+
+.input-container label {
+  margin: 1em;
+}
+
+.password {
+  margin: 1.1em;
+}
+
+.password label {
+  margin: 1em;
+}
+
+.button-container {
+  margin: 1em;
+  display: block;
+  margin-left: 9em;
+  margin-top: 1em;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 360px;
+  left: 610px;
+}
+
+.background {
+  background-image: url(/public/images/login-background.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.success {
+  color: #17b955;
+  font-weight: bold;
+  position: absolute;
+  top: 360px;
+  left: 610px;
+}
+
+.logout {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 360px;
+  left: 610px;
+}
+
+.button-login {
+  margin: 1em;
+  cursor: pointer;
+  border-style: none;
+  background-color: #1477b2;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  -webkit-transition: all 4 ease;
+  transition: all 4 ease;
+}
+
+.button-login:hover {
+  -webkit-transform: scale(102%);
+          transform: scale(102%);
+}
+
+.button-logout {
+  margin: 1em;
+  margin-top: -20em;
+  margin-left: 15em;
+  cursor: pointer;
+  border-style: none;
+  background-color: #1477b2;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.button-logout:hover {
+  -webkit-transform: scale(102%);
+          transform: scale(102%);
+}
+/*# sourceMappingURL=main1.css.map */
