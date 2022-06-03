@@ -105,7 +105,9 @@ function Header({image,setImage}) {
                     <ul className="secondary-nav">
                         
                     <li>
-                            <a href="#"> <img src="images/shopping-bag.svg" alt="" height="30" width="30"/> </a>
+                    <Link to="Shopping">
+                             <img src= "images/shopping-bag.svg" alt="" height="30" width="30"></img>
+                            </Link>
                         </li>
                       
                 
@@ -115,7 +117,10 @@ function Header({image,setImage}) {
                             </Link>
                         </li>
                         <li>
-                            <a href="#"> <img src="images/search.svg" alt="" height="30" width="30"></img></a>
+                        <Link to="Search">
+                             <img src= "images/search.svg" alt="" height="30" width="30"></img>
+                            </Link>
+                         
                             
                         </li>
                       

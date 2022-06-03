@@ -451,4 +451,54 @@ ul {
   border-bottom: 2px solid #1477b2;
   outline: 0;
 }
+
+.items-av {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.items-av li {
+  margin: 1em;
+}
+
+.search-input {
+  margin-left: 1em;
+  border: none;
+  width: 40%;
+  padding: 1em;
+  outline: 0;
+  background: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+.search-input:focus {
+  border: none;
+  border-bottom: 2px solid #1477b2;
+  outline: 0;
+}
+
+.search-input::-webkit-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.search-input:-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.search-input::-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.search-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
 /*# sourceMappingURL=main1.css.map */
