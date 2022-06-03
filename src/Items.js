@@ -107,7 +107,7 @@ const Items=({success ,setSuccess})=> {
 
         :
         <div className='login-first'>
-          <h1 > Please login first to view all items available</h1>
+          <h1 > Please login first to view and search all items available </h1>
         </div>
       }
     

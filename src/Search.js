@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-const Search=()=> {
+import Header from './Header';
+const Search=({image,setImage,success,setSuccess})=> {
     const [query,setQuery]=useState("");
 const items=[
 
@@ -69,35 +70,47 @@ const items=[
 const showingItems =query==="" ? items
 : items.filter((item)=> item.iname.toLowerCase().includes(query.toLowerCase()))
   return (
-      
+
     <div >
-        <head>
-    <base href="/"/>
-</head>
-         <div className="search">
-        <input className='search-input'
-          type="text"
-          placeholder="Enter item(s) to search for " value={query}
-          onChange={((event)=>{setQuery(event.target.value)})}
-          
-        />
+            
+        <base href="/"/>
+    
+         <Header image={image} setImage={setImage}  success={success} setSuccess={setSuccess} ></Header>
+        {
+            success ?
+            <div>
+       
+   
+             <div className="search">
+            <input className='search-input'
+              type="text"
+              placeholder="Enter item(s) to search for " value={query}
+              onChange={((event)=>{setQuery(event.target.value)})}
+              
+            />
+    
+          </div>
+        <ul className='items-av'>
+    {
+        showingItems.map((item)=>{
+            return(
+            <li key={item.id}>
+                <img src={item.image}></img>
+               <h3>{item.iname}</h3>
+               
+               <h3> {item.iprice}</h3>
+            </li>
+    
+        )})
+    }
+    
+        </ul>
+        </div>
 
-      </div>
-    <ul className='items-av'>
-{
-    showingItems.map((item)=>{
-        return(
-        <li key={item.id}>
-            <img src={item.image}></img>
-           <h3>{item.iname}</h3>
-           
-           <h3> {item.iprice}</h3>
-        </li>
+            :
+            ""
+        }
 
-    )})
-}
-
-    </ul>
     </div>
   )
 }

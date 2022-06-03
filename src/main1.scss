@@ -489,7 +489,7 @@ color: red;
     background: none;
     border-bottom: 2px solid black;
     margin-bottom: 4em;
-    margin-top: 2em;
+    margin-top: 10em;
     &:focus{
         border: none;
         border-bottom: 2px solid #1477b2;  
@@ -499,4 +499,7 @@ color: red;
        font-weight: bold;
        color: black; 
     }
+}
+.login-search{
+    
 }
