@@ -71,24 +71,23 @@ const [logout,setLogout]=useState(false);
     <div className='background'>
     <div className="form">
     <form onSubmit={handleSubmit}>
-      <div className="input-container">
-        <label>Username </label>
-        <input type="text" name="uname" required />
-      </div>
-      <div className="input-container">
+      <div className="username-container">
+        <label className=''>Username </label>
+        </div>
+        <input className='username-input' type="text" name="uname" required />
+      
+      <div className="password-container">
         <label>Password </label>
-        <input type="password" name="pass" required />
+        </div>
+        <input className='password-input' type="password" name="pass" required />
         
-      </div>
-      <div className="button-container">
-        <input className='button-login' type="submit" />
-      </div>
-  
      
+     
+        <input className='button-login' type="submit" />
+       
     </form>
-    <div >
-      <button  className='button-logout' onClick={()=>{setImage("images/account.svg");setSuccess(false);setLogout(true) ;setError(false)}}>Logout</button>
-    </div>
+    <button  className='button-logout' onClick={()=>{setImage("images/account.svg");setSuccess(false);setLogout(true) ;setError(false)}}>Logout</button>
+  
     
   </div>
   </div>

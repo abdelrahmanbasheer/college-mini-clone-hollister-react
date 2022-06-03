@@ -330,42 +330,31 @@ ul {
 .form {
   padding-top: 5em;
   margin-top: 20em;
-  margin-left: 35em;
+  margin-left: 36em;
   display: inline-block;
   background-color: white;
-  height: 150px;
-  width: 350px;
+  height: 200px;
+  width: 330px;
   opacity: 95%;
 }
 
-.input-container {
-  margin: 1em;
+.username-container {
+  margin-top: -1em;
+  margin-bottom: 0.5em;
+  margin-left: 8em;
 }
 
-.input-container label {
-  margin: 1em;
-}
-
-.password {
-  margin: 1.1em;
-}
-
-.password label {
-  margin: 1em;
-}
-
-.button-container {
-  margin: 1em;
-  display: block;
-  margin-left: 9em;
-  margin-top: 1em;
+.password-container {
+  margin-top: 1.5em;
+  margin-left: 8em;
+  margin-bottom: 0.5em;
 }
 
 .error {
   color: red;
   font-weight: bold;
   position: absolute;
-  top: 360px;
+  top: 350px;
   left: 610px;
 }
 
@@ -382,20 +371,21 @@ ul {
   color: #17b955;
   font-weight: bold;
   position: absolute;
-  top: 360px;
-  left: 610px;
+  top: 350px;
+  left: 630px;
 }
 
 .logout {
   color: black;
   font-weight: bold;
   position: absolute;
-  top: 360px;
-  left: 610px;
+  top: 350px;
+  left: 630px;
 }
 
 .button-login {
   margin: 1em;
+  margin-left: 2em;
   cursor: pointer;
   border-style: none;
   background-color: #1477b2;
@@ -405,8 +395,7 @@ ul {
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
-  -webkit-transition: all 4 ease;
-  transition: all 4 ease;
+  width: 270px;
 }
 
 .button-login:hover {
@@ -415,9 +404,7 @@ ul {
 }
 
 .button-logout {
-  margin: 1em;
-  margin-top: -20em;
-  margin-left: 15em;
+  margin-left: 2em;
   cursor: pointer;
   border-style: none;
   background-color: #1477b2;
@@ -427,6 +414,7 @@ ul {
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+  width: 270px;
 }
 
 .button-logout:hover {
@@ -438,5 +426,29 @@ ul {
   text-align: center;
   font-weight: 550;
   color: red;
+}
+
+.password-input {
+  margin-left: 6em;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.password-input:focus {
+  border: none;
+  border-bottom: 2px solid #1477b2;
+  outline: 0;
+}
+
+.username-input {
+  margin-left: 6em;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.username-input:focus {
+  border: none;
+  border-bottom: 2px solid #1477b2;
+  outline: 0;
 }
 /*# sourceMappingURL=main1.css.map */
